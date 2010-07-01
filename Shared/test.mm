@@ -186,7 +186,7 @@ NSString* Test::testNeon(){
 		}
 	}
 	int endTime = getTime();
-	NSString* string = [NSString stringWithFormat:@"Pixcel: %d\nHit Pixel: %d\nTime: %d msec\n", pixelCount * LOOP_COUNT, totalHitCount, endTime-startTime];
+	NSString* string = [NSString stringWithFormat:@"Pixcel: %d\nHit Pixel: %d\nTime: %d msec\n", width * height * LOOP_COUNT, totalHitCount, endTime-startTime];
 	return string;
 }
 //--------------------------------
